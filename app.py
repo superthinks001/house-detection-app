@@ -7,7 +7,7 @@ from ultralytics import YOLO
 import os
 
 # Load model (adjust path if needed)
-model_path = "/content/drive/MyDrive/House_Detection_Project/training_P1/house_detection_best.pt"
+model_path = "house_detection_best.pt"
 model = YOLO(model_path)
 
 # Streamlit UI
